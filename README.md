@@ -8,19 +8,24 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. .Import the necessary python packages using import statements.
-2. Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
-3. Split the dataset using train_test_split.
-4. Calculate Y_Pred and accuracy.
-5. End the program
+1.Import the necessary python packages using import statements.
+
+2.Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
+
+3.Split the dataset using train_test_split.
+
+4.Calculate Y_Pred and accuracy.
+
+5.Print all the outputs.
+
+6.End the Program. 
 
 ## Program:
-```
+```python
 /*
 Program to implement the SVM For Spam Mail Detection..
 Developed by: Vishal S
 RegisterNumber:  212224040364
-*/
 
 import chardet
 file='spam.csv'
@@ -58,13 +63,28 @@ y_pred
 from sklearn import metrics
 accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
-
-
+*/
 ```
 
 ## Output:
-![SVM For Spam Mail Detection](sam.png)
+## Encoding:
+![328234656-ed87456c-9dd8-418d-a960-1abad11477f2](https://github.com/user-attachments/assets/5c4b1492-8367-4f3f-9f6b-e99238db16e2)
 
+## Head():
+![328234925-8e2c3fec-2fe3-40c3-923a-1a1c3719e734](https://github.com/user-attachments/assets/97a34e8e-99da-4641-834d-7d23fc76ecd1)
+
+## Info():
+![328235099-b48518c5-c983-44d3-9cc2-14924033aa91](https://github.com/user-attachments/assets/f76ada16-196c-489b-968f-8c05fa080674)
+
+## isnull().sum():
+![328235367-50754f89-e886-48c3-a285-44b76317b605](https://github.com/user-attachments/assets/740db595-cedd-44bd-9b28-72282aaf4bec)
+
+## Prediction of y:
+![328235504-8f3a2d63-9aa6-4da2-95c4-d53b87fde998](https://github.com/user-attachments/assets/853489b2-9a35-4319-847d-d9eb45c1192a)
+
+## Accuracy:
+
+![328235573-d1dcce16-dc32-4ec2-a042-ce25bee461da](https://github.com/user-attachments/assets/8eee9fd1-1457-4e40-a1df-44f2fa714a3d)
 
 ## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
